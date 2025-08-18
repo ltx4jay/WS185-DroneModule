@@ -1,0 +1,50 @@
+idf_component_register(
+                         SRCS 
+                              "./main.cpp"
+                              "./options.cpp"
+                              "./power.cpp"
+                              "./ui/screens/ui_Splash.c"
+                              "./ui/screens/ui_Images.c"
+                              "./ui/screens/ui_Audio.c"
+                              "./ui/screens/ui_Power.c"
+                              "./ui/screens/ui_Options.c"
+                              "./ui/ui.c"
+                              "./ui/components/ui_comp_hook.c"
+                              "./ui/ui_helpers.c"
+                              "./ui/images/ui_img_hexcorp360_png.c"
+                              "./ui/images/ui_img_cpu360_png.c"
+                              "./ui/images/ui_img_brk360_png.c"
+                              "./ui/images/ui_img_hive360_png.c"
+                              "./ui/images/ui_img_hal9000_png.c"
+                              "./ui/images/ui_img_spiral360_png.c"
+                              "./LCD_Driver/esp_lcd_st77916/esp_lcd_st77916.c" 
+                              "./LCD_Driver/ST77916.c"   
+                              "./LVGL_Driver/LVGL_Driver.c"  
+                              "./EXIO/TCA9554PWR.c"
+                              "./I2C_Driver/I2C_Driver.c"
+                              "./PWR_Key/PWR_Key.cpp"
+                              "./MIC_Driver/MIC_Driver.cpp"
+                              "./QMI8658/QMI8658.c"
+                              "./Touch_Driver/CST816.c"
+                              "./Touch_driver/esp_lcd_touch/esp_lcd_touch.c"
+
+                         INCLUDE_DIRS 
+                              "./LCD_Driver/esp_lcd_st77916" 
+                              "./LCD_Driver"   
+                              "./LVGL_Driver"   
+                              "./EXIO"
+                              "./I2C_Driver"
+                              "./PWR_Key"
+                              "./MIC_Driver"
+                              "./QMI8658"
+                              "./Touch_Driver"
+                              "./Touch_Driver/esp_lcd_touch"
+                              "."
+
+                         REQUIRES
+		              esp_lcd
+                              esp_adc
+                              nvs_flash
+                       )
+
+target_compile_options(${COMPONENT_LIB} PRIVATE $<$<COMPILE_LANGUAGE:CXX>:-Wno-deprecated-enum-enum-conversion>)

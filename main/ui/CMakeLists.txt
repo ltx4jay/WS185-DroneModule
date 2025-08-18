@@ -1,0 +1,17 @@
+SET(SOURCES screens/ui_Images.c
+    screens/ui_Audio.c
+    screens/ui_Options.c
+    screens/ui_Power.c
+    screens/ui_Splash.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    images/ui_img_hexcorp360_png.c
+    images/ui_img_cpu360_png.c
+    images/ui_img_brk360_png.c
+    images/ui_img_hive360_png.c
+    images/ui_img_hal9000_png.c
+    images/ui_img_spiral360_png.c)
+
+add_library(ui ${SOURCES})

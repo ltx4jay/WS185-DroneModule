@@ -1,0 +1,5 @@
+dependencies:
+  idf: ">=4.4"
+  espressif/esp_lcd_axs15231b: ==1.0.0
+  lvgl/lvgl: '<9.0.0'
+  espressif/fmt: '*'
