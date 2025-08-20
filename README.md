@@ -10,7 +10,7 @@
 * To power off the module, select the "VU Meter" screen, then swipe up
    * Press and hold the button until the counter reaches "00:00", then release the button.
 
-![How to video](https://youtube.com/shorts/vYDvSj9ELww)
+[![How to video](https://img.youtube.com/vi/vYDvSj9ELww/hqdefault.jpg)](https://youtube.com/shorts/vYDvSj9ELww)
 
 ## Parts
 
@@ -42,18 +42,20 @@ To select the adaptor corresponding to your mask, locate where the thread start.
 
 1. Update all the dependencies, compile, then flash the software in the module using a USB-C cable. Note that the USB-C opening is quite slim and a very low profile connector must be used.
 
-   $ idf.py update-dependencies
-   $ idf.py flash
+    ```
+    $ idf.py update-dependencies
+    $ idf.py flash
+    ```
 
 1. Solder the wire connector to the battery. Check the polarity of the connectors. Do not rely on the color of the wires as there are no standard as to which side should be positive or negative.
 
-![Battery](docs/images/battery1.jpg)
+    ![Battery](docs/images/battery1.jpg)
 
 1. Attach the module to the adaptor using the three screws. Do not tighten the screws very much as this may cause the touchscreen to separate from the module body.
 
 1. Connect the battery and put into the housing
 
-![Battery](docs/images/battery2.jpg)
+    ![Battery](docs/images/battery2.jpg)
 
 1. Secure the battery with a strip of electrical tape. Bend the tape over the thread. There is plenty of room, it will help prevent the tape from peeling off, and help secure the module even more.
 
