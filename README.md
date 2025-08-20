@@ -1,6 +1,8 @@
 
 # Active LCD/Touch Module for MSA Millenium
 
+[![We are amongst you](https://img.youtube.com/vi/RAXS9oAZ2nA/hqdefault.jpg)](https://youtube.com/shorts/RAXS9oAZ2nA)
+
 * Turn on by plugging a powered UCB-C cable or pressing the PWR button through the "2 o'clock" hole with a paper clip.
 * Select a screen by swiping left/right
 * To select options, select the "VU Meter" screen, then swipe down
@@ -28,7 +30,7 @@ The display must be physically mounted vertically on the mask, with the opening 
 This means that the thread must be such that, once tightly screwed in place, the display must end up in the
 right orientation.
 
-To that end, you will find twelve versions of the adaptor print files in the `adaptor/` directory. Each is suffixed with a number between 0 and 330, one for each 30-degree rotation of the thread. Further, there is 0,5mm adjustment nib than can be filed down to get a tight fit at the right position.
+To that end, you will find twelve versions of the adaptor print files in the `adaptor/` directory. Each is suffixed with a number between 0 and 330, one for each 30-degree rotation of the thread. Further, there is a 0,5mm adjustment nib than can be filed down to get a tight fit at the right position.
 
 ![Adjustment Nib](docs/images/nib.png)
 
