@@ -10,5 +10,6 @@ extern struct Options
 
 extern void (*screenLoop)(void);
 void refreshScreen();
+void setBrightness(uint8_t percent);
 
 void NVS_Store();

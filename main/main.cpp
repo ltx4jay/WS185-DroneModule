@@ -40,6 +40,13 @@ void (*screenLoop)(void) = nullptr;
 // Default start screen, saved to NV-RAM
 static uint8_t gStartScreen = 0;
 
+void setBrightness(uint8_t percent)
+{
+    // Don't let it go too low so it'll turn off
+    if (percent < 5) percent = 5;
+    Set_Backlight(percent);
+}
+
 void
 switchScreen(bool confirmed, bool reset = false, int offset = 0)
 {
@@ -104,7 +111,7 @@ switchScreen(bool confirmed, bool reset = false, int offset = 0)
     screen.init();
 
     lv_scr_load(screen.screenObj);
-    Set_Backlight(gOpts.brightness);
+    setBrightness(gOpts.brightness);
 
     NVS_Store();
 }
@@ -207,7 +214,7 @@ void app_main(void)
 
     ui_init();
     lv_disp_set_rotation(disp, LV_DISP_ROT_NONE);
-    Set_Backlight(gOpts.brightness);
+    setBrightness(gOpts.brightness);
 
     // Show splash screen for 2 seconds
     lv_scr_load(ui_Splash);

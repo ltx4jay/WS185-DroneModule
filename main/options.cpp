@@ -25,7 +25,7 @@ gotoOptionsScreen_cb(lv_event_t *e)
     lv_obj_add_flag(ui_Option_Container_4, LV_OBJ_FLAG_HIDDEN);
 
     lv_scr_load(ui_Options);
-    Set_Backlight(gOpts.brightness);
+    setBrightness(gOpts.brightness);
 }
 
 void
@@ -44,7 +44,7 @@ void
 setBrightness_cb(lv_event_t *e)
 {
     gOpts.brightness = lv_slider_get_value(ui_Brightness_Slider);
-    Set_Backlight(gOpts.brightness);
+    setBrightness(gOpts.brightness);
 }
 
 void
