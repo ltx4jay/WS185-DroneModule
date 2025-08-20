@@ -32,7 +32,7 @@ To that end, you will find twelve versions of the adaptor print files in the `ad
 
 ![Adjustment Nib](docs/images/nib.png)
 
-To select the adaptor corresponding to your mask, locate where the thread start. Measure the angle in degrees from the top of the opening in a clockwise direction. Select the file that is closest to your measurement. In the example pictured below, the thread starts at the bottom of the opening, thus the "adaptor_180.stl" should be used.
+To select the adaptor corresponding to your mask, locate where the thread starts. Measure the angle in degrees from the top of the opening in a clockwise direction. Select the file that is closest to your measurement. In the example pictured below, the thread starts at the bottom of the opening, thus `adaptor/Module Adaptor 180.stl` should be used.
 
 ![Location of the Thread Start](docs/images/thread.jpg)
 
