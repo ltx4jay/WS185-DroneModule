@@ -38,7 +38,7 @@ To select the adaptor corresponding to your mask, locate where the thread start.
 
 ## Assembly
 
-1. Install ESP-IDF. How this is done depends on your computing platform and outside the scope of these instructions.
+1. Install [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html). How this is done depends on your computing platform and outside the scope of these instructions.
 
 1. Update all the dependencies, compile, then flash the software in the module using a USB-C cable. Note that the USB-C opening is quite slim and a very low profile connector must be used.
 
