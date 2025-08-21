@@ -6,13 +6,14 @@
 * Turn on by plugging a powered UCB-C cable or pressing the PWR button through the "2 o'clock" hole with a paper clip.
 * Select a screen by swiping left/right
 * To select options, select the "VU Meter" screen, then swipe down
-   * When "gimbal" mode is turned on, static images will stay vertical as the module is tilted left/right. For the gimbal to operate, the face of the module must be near vertical. If the module is tilted backward/forward, the image will revert to a static position until the module returns to a near-vertical position.
-   * Select the desired screen brightnedd using the slider
-   * Swipe up or down to exit the options screen. The selection options are saved to non-volatile storage and will be used the next time the module is powered up.
+   * When "gimbal" mode is turned on, [static images will stay vertical as the module is tilted left/right](https://youtube.com/shorts/xoTwUf5Kzs8). For the gimbal to operate, the face of the module must be near vertical. If the module is tilted backward/forward, the image will revert to a static position until the module returns to a near-vertical position.
+   * Select the desired screen brightness using the slider
+   * Swipe up or down to exit the options screen. The selected options are saved to non-volatile storage and will be used the next time the module is powered up.
 * To power off the module, select the "VU Meter" screen, then swipe up
    * Press and hold the button until the counter reaches "00:00", then release the button.
 
-[![How to video](https://img.youtube.com/vi/vYDvSj9ELww/hqdefault.jpg)](https://youtube.com/shorts/vYDvSj9ELww)[![Gimbal demo](https://img.youtube.com/vi/xoTwUf5Kzs8/hqdefault.jpg)](https://youtube.com/shorts/xoTwUf5Kzs8)
+[![How to video](https://img.youtube.com/vi/vYDvSj9ELww/hqdefault.jpg)](https://youtube.com/shorts/vYDvSj9ELww)
+[![Gimbal demo](https://img.youtube.com/vi/xoTwUf5Kzs8/hqdefault.jpg)](https://youtube.com/shorts/xoTwUf5Kzs8)
 
 ## Parts
 
