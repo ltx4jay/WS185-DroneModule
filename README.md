@@ -80,3 +80,7 @@ If you wish to modify the source code
     ```
 
 Contributions are welcomed! Please submit a Pull Request for consideration.
+
+## LVGL Graphical Interface
+
+The graphical interface is implemented using [Squaline Studio](https://squareline.io/). The project files can be found under the `SquareLine` directory. The LVGL code for the UI is subsequently exported to the `main/ui` directory. These generated files are included in the repo so there is no need to use Squareline Studio to recreate the binary. It is only necessary if the UI itself needs to be modified.
