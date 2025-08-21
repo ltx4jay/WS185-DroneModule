@@ -27,6 +27,8 @@ To assemble your own module, you will need
 
 You will also need a USB-C cable with a slim head connector to charge the battery once the assembly is completed.
 
+A complete part kit, pre-loaded with software, is [available here](https://www.etsy.com/listing/4356263442/electronic-components-for-drone-module).
+
 ## 3D Printed Adaptor
 
 The display must be physically mounted vertically on the mask, with the opening for the USB-C connector facing down.
