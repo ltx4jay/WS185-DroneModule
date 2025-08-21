@@ -12,7 +12,7 @@
 * To power off the module, select the "VU Meter" screen, then swipe up
    * Press and hold the button until the counter reaches "00:00", then release the button.
 
-[![How to video](https://img.youtube.com/vi/vYDvSj9ELww/hqdefault.jpg)](https://youtube.com/shorts/vYDvSj9ELww)
+[![How to video](https://img.youtube.com/vi/vYDvSj9ELww/hqdefault.jpg)](https://youtube.com/shorts/vYDvSj9ELww)[![Gimbal demo](https://img.youtube.com/vi/xoTwUf5Kzs8/hqdefault.jpg)](https://youtube.com/shorts/xoTwUf5Kzs8)
 
 ## Parts
 
