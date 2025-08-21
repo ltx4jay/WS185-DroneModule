@@ -25,10 +25,12 @@ To assemble your own module, you will need
 4. 3 x [M2x8 machine screws](https://www.amazon.com/cSeao-100pcs-Phillips-Machine-Stainless/dp/B0CMCRW6N5)
 5. 1 x 3D printed adaptor
 
+You will also need a USB-C cable with a slim head connector to charge the battery once the assembly is completed.
+
 ## 3D Printed Adaptor
 
 The display must be physically mounted vertically on the mask, with the opening for the USB-C connector facing down.
-This means that the thread must be such that, once tightly screwed in place, the display must end up in the
+This means that the thread must be such that, once tightly screwed in place, the display ends up in the
 right orientation.
 
 To that end, you will find twelve versions of the adaptor print files in the `adaptor/` directory. Each is suffixed with a number between 0 and 330, one for each 30-degree rotation of the thread. Further, there is a 0,5mm adjustment nib than can be filed down to get a tight fit at the right position.
@@ -38,6 +40,11 @@ To that end, you will find twelve versions of the adaptor print files in the `ad
 To select the adaptor corresponding to your mask, locate where the thread starts. Measure the angle in degrees from the top of the opening in a clockwise direction. Select the file that is closest to your measurement. In the example pictured below, the thread starts at the bottom of the opening, thus `adaptor/Module Adaptor 180.stl` should be used.
 
 ![Location of the Thread Start](docs/images/thread.jpg)
+
+If you do not have a 3D printer, or a friend who has a 3D printer, you can order a custom print on [treatstock.com](http://treatstock.com). I recommend printing draft adaptors using low in-fill to make sure you have selected the correct thread orientation for your mask. If ordering from a 3rd party printer, you can print two or three variations to find which one works best. You'll find the reference angle engraved in the print just above the USB-C opening so you can identify which one is which.
+
+If you are familiar with 3D design and need to make changes to better fit the adaptor to your mask or other applications,
+you can find the CAD design on [onShape](https://cad.onshape.com/documents/bc1f5a716a4c4820f004ee89/w/ae24f4372222ef2d74587ff9/e/df42568fb9024952c10272b5).
 
 ## Assembly
 
