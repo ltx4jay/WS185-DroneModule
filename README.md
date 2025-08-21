@@ -40,13 +40,14 @@ To select the adaptor corresponding to your mask, locate where the thread starts
 
 ## Assembly
 
-1. Install [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html). How this is done depends on your computing platform and outside the scope of these instructions.
+1. Download and install [esptool](https://github.com/espressif/esptool/releases). How this is done depends on your computing platform and outside the scope of these instructions.
 
-1. Update all the dependencies, compile, then flash the software in the module using a USB-C cable. Note that the USB-C opening is quite slim and a very low profile connector must be used.
+1. Download the latest `DroneModule-vXXX.bin` file from the `releases` directory.
+
+1. Using a USB-C cable, connect the display module to your computer. Flash the device with the binary using the `esptool` command. How the command is issued depends on your computing platform and outside the scope of these instructions.
 
     ```
-    $ idf.py update-dependencies
-    $ idf.py flash
+    $ esptool write-flash 0x0000 DroneModule-vXXX.bin
     ```
 
 1. Solder the wire connector to the battery. Check the polarity of the connectors. Do not rely on the color of the wires as there are no standard as to which side should be positive or negative.
@@ -61,5 +62,21 @@ To select the adaptor corresponding to your mask, locate where the thread starts
 
 1. Secure the battery with a strip of electrical tape. Bend the tape over the thread. There is plenty of room, it will help prevent the tape from peeling off, and help secure the module even more.
 
-
 ![Battery](docs/images/battery3.jpg)
+
+## Source Code
+
+If you wish to modify the source code
+
+1. Clone or fork this repository
+
+1. Install [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html). How this is done depends on your computing platform and outside the scope of these instructions.
+
+1. Update all the dependencies, compile, then flash the software in the module using a USB-C cable. Note that the USB-C opening is quite slim and a very low profile connector must be used.
+
+    ```
+    $ idf.py update-dependencies
+    $ idf.py build flash
+    ```
+
+Contributions are welcomed! Please submit a Pull Request for consideration.
