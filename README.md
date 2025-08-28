@@ -43,7 +43,9 @@ To select the adaptor corresponding to your mask, locate where the thread starts
 
 ![Location of the Thread Start](docs/images/thread.jpg)
 
-If you do not have a 3D printer, or a friend who has a 3D printer, you can order a custom print on [treatstock.com](http://treatstock.com). I recommend printing draft adaptors using low in-fill to make sure you have selected the correct thread orientation for your mask. If ordering from a 3rd party printer, you can print two or three variations to find which one works best. You'll find the reference angle engraved in the print just above the USB-C opening so you can identify which one is which.
+If you do not have a 3D printer, or a friend who has a 3D printer, you can order a custom print on [treatstock.com](http://treatstock.com) using black PLA or ABS. I recommend printing draft adaptors first using low in-fill to make sure you have selected the correct thread orientation for your mask. If ordering from a 3rd party printer, you can print two or three variations to find which one works best. You'll find the reference angle engraved in the print just above the USB-C opening so you can identify which one is which.
+
+My final adaptor was printed using ABS with 100% infill.
 
 If you are familiar with 3D design and need to make changes to better fit the adaptor to your mask or other applications,
 you can find the CAD design on [onShape](https://cad.onshape.com/documents/bc1f5a716a4c4820f004ee89/w/ae24f4372222ef2d74587ff9/e/df42568fb9024952c10272b5).
